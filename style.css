@@ -1,0 +1,77 @@
+:root{--paper:#f7f5ef;--ink:#183b30;--muted:#68766f;--green:#28694f;--coral:#ed9676;--line:#e3e2da}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,Segoe UI,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}.header{height:76px;padding:0 5%;display:flex;align-items:center;justify-content:space-between;background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}.brand{display:flex;align-items:center;gap:8px;font-size:23px;font-weight:750}.brand>span{color:var(--coral);margin-left:-8px}.mark{width:30px;height:30px;border-radius:10px;background:var(--green);color:#fff;display:grid;place-items:center;font:italic 22px Georgia}nav{display:flex;align-items:center;gap:30px;font-size:13px;font-weight:650}.nav-cta,.button{background:var(--green);color:#fff;padding:11px 16px;border-radius:5px}.menu{display:none}.wrap{width:min(1120px,90%);margin:auto}.hero{min-height:475px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:30px;padding:48px 0}.hero small,.section-head small,.how small,.promise small{font-size:10px;letter-spacing:1.5px;font-weight:800;color:var(--green)}h1,h2,h3,p{margin-top:0}.hero h1{font-size:clamp(48px,6vw,72px);line-height:1.04;letter-spacing:-3px;margin:18px 0}.hero em,h2 em{font:italic 400 1em Georgia;color:var(--green)}.lead{max-width:460px;color:var(--muted)}.button{display:inline-block;border:0;cursor:pointer;font-size:13px;font-weight:700}.button:hover,.nav-cta:hover{background:#1b4f3c}.text-link{font-size:13px;font-weight:700;margin-left:22px}.note,.fine{font-size:10px;color:#7d8179;margin-top:20px}.art{height:340px;position:relative;display:grid;place-items:center;background:#e9efe2;border-radius:48% 52% 48% 52%/46% 43% 57% 54%;overflow:hidden}.art:before,.art:after{content:"";position:absolute;bottom:-10%;width:120%;height:45%;border-radius:50%;background:#bfd5bd}.art:after{bottom:-22%;background:#83ad8f}.sun{position:absolute;right:18%;top:15%;width:65px;height:65px;border-radius:50%;background:#f6cf9a}.plant{z-index:1;font:bold 150px Georgia;color:#28694f;transform:rotate(90deg);line-height:1}.art-label{position:absolute;left:8%;top:20%;font:16px/1.2 Georgia;color:var(--green);transform:rotate(-7deg)}.campaigns{background:#fff;padding:75px 0}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:30px}.section-head h2,.how h2,.promise h2{font-size:42px;line-height:1.12;letter-spacing:-2px;margin:8px 0}.section-head>p{max-width:380px;color:var(--muted);font-size:13px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:1px solid var(--line);border-radius:9px;overflow:hidden;background:#fff;box-shadow:0 8px 25px #233b3010}.photo{height:180px;position:relative;display:grid;place-items:center;overflow:hidden}.photo:before,.photo:after{content:"";position:absolute;width:175px;height:175px;border-radius:50%;opacity:.7}.education{background:#dbe9dc}.education:before{background:#a9c8a6;left:8%;top:20px}.education:after{width:120px;height:120px;background:#f0c895;right:13%;top:30px}.health{background:#f5e4d8}.health:before{background:#eab394;left:9%;top:20px}.health:after{width:110px;height:110px;background:#faefda;right:12%;top:28px}.water{background:#dcebf0}.water:before{background:#9dcbd0;left:9%;top:20px}.water:after{width:120px;height:120px;background:#f3d39d;right:12%;top:28px}.photo>b{z-index:1;background:#ffffffd9;padding:14px;border-radius:50%;font-size:10px;letter-spacing:1px}.photo>span{position:absolute;bottom:10px;right:10px;z-index:2;font:11px Georgia}.body{padding:18px}.body h3{font-size:17px;margin-bottom:7px}.body>p{min-height:58px;color:var(--muted);font-size:12px}.numbers,.foot{display:flex;justify-content:space-between;align-items:center}.numbers strong{font-size:13px}.numbers span,.foot>span{font-size:10px;color:var(--muted)}.progress{height:6px;background:#edf0eb;border-radius:9px;margin:9px 0 14px;overflow:hidden}.progress i{display:block;height:100%;background:var(--green)}.small{padding:8px 12px;font-size:11px}.fine{text-align:center}.how{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;padding-top:80px;padding-bottom:80px}.how>div:first-child>p,.steps p{color:var(--muted);font-size:13px}.steps article{display:flex;gap:20px;padding:17px 0;border-bottom:1px solid var(--line)}.steps b,.star{font:24px Georgia;color:var(--coral)}.steps h3{font-size:15px;margin:0 0 4px}.steps p{font-size:12px;margin:0}.promise{background:#e8eee3;padding:48px 0}.promise-inner{display:grid;grid-template-columns:auto 1fr 1fr;gap:24px;align-items:center}.promise h2{font-size:34px}.promise-inner>p{font-size:12px;color:var(--muted);max-width:350px;justify-self:end;margin:0}footer{min-height:75px;padding:18px 5%;display:flex;align-items:center;justify-content:space-between;background:#fff}footer .brand{font-size:19px}footer .mark{width:25px;height:25px;font-size:18px}footer span,footer>a:last-child{font-size:10px;color:var(--muted)}dialog{width:min(410px,calc(100% - 32px));border:0;border-radius:12px;padding:34px;text-align:center;color:var(--ink);box-shadow:0 20px 80px #15291e55}dialog::backdrop{background:#15291e88}.close{position:absolute;right:12px;top:8px;border:0;background:none;font-size:23px;cursor:pointer}dialog h2{font:30px Georgia}dialog p{color:var(--muted);font-size:13px} :focus-visible{outline:3px solid var(--coral);outline-offset:3px}@media(max-width:800px){.grid{gap:12px}.body{padding:13px}.how{gap:40px}}@media(max-width:650px){.header{height:64px}.menu{display:block;background:transparent;border:1px solid var(--line);border-radius:5px;padding:6px 10px;color:var(--ink)}nav{display:none;position:absolute;top:63px;left:0;right:0;background:white;padding:20px 5%;align-items:stretch;flex-direction:column;gap:16px}nav.open{display:flex}.nav-cta{text-align:center}.hero{grid-template-columns:1fr;padding:45px 0 30px}.hero h1{font-size:52px}.art{height:280px;margin-top:15px}.section-head{align-items:start;flex-direction:column;gap:10px}.section-head h2,.how h2{font-size:36px}.grid{grid-template-columns:1fr}.photo{height:200px}.body>p{min-height:0}.how{grid-template-columns:1fr;gap:20px;padding:55px 0}.promise-inner{grid-template-columns:auto 1fr}.promise h2{font-size:29px}.promise-inner>p{grid-column:1/-1;justify-self:start}.footer{flex-wrap:wrap;gap:10px}footer>span{order:3;width:100%}}
+/* Step 2 campaign detail view */
+.campaign-link{display:block;color:inherit;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.campaign-link:hover{transform:translateY(-3px);box-shadow:0 14px 32px #233b3020}
+.campaign-link:focus-visible,.back-link:focus-visible{outline:3px solid var(--coral);outline-offset:4px}
+.campaign-link .button{display:inline-block}
+.detail-wrap{padding-top:36px;padding-bottom:78px}
+.back-link{display:inline-flex;margin-bottom:25px;color:var(--green);font-size:13px;font-weight:700}
+.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
+.detail-image{min-height:440px;border-radius:12px;display:flex;align-items:flex-end;padding:22px;position:relative;overflow:hidden}
+.detail-image:before,.detail-image:after{content:"";position:absolute;border-radius:50%;opacity:.68}
+.detail-image:before{width:320px;height:320px;left:-45px;top:56px;background:#a9c8a6}
+.detail-image:after{width:220px;height:220px;right:-20px;top:95px;background:#f0c895}
+.detail-image.education{background:#dbe9dc}.detail-image.health{background:#f5e4d8}.detail-image.health:before{background:#eab394}.detail-image.health:after{background:#faefda}
+.detail-image.water{background:#dcebf0}.detail-image.water:before{background:#9dcbd0}.detail-image.water:after{background:#f3d39d}
+.detail-category{position:relative;z-index:1;padding:8px 12px;border-radius:4px;background:#ffffffeb;color:var(--green);font-size:10px;font-weight:800;letter-spacing:1px}
+.detail-content h2{font-size:clamp(32px,4vw,46px);line-height:1.12;letter-spacing:-1.5px;margin:12px 0}
+.detail-story{color:var(--muted);line-height:1.75}
+.detail-raised{display:flex;gap:55px;margin-top:28px}
+.detail-raised div{display:grid;gap:4px}.detail-raised span,.remaining span{font-size:11px;color:var(--muted)}
+.detail-raised strong{font-size:18px}.detail-progress{height:9px;margin:15px 0 10px}
+.remaining{display:flex;justify-content:space-between;align-items:center}.remaining strong{font-size:14px}
+.owner-panel{border:1px solid var(--line);border-radius:8px;padding:17px 18px;margin:24px 0;background:#fff}
+.owner-panel h3{font-size:13px;margin:0 0 12px}.owner-panel h3 span{font-size:11px;color:var(--muted);font-weight:500}
+.owner-panel p{font-size:12px;margin:7px 0 0;color:var(--muted)}.owner-panel p strong{font-size:14px;color:var(--ink)}
+.detail-donate{min-width:155px}.detail-disclaimer{font-size:10px;color:var(--muted);margin:9px 0}
+.detail-mode main>section:not(#campaignDetail){display:none}.detail-mode #campaignDetail{display:block}
+@media(max-width:700px){.detail-grid{grid-template-columns:1fr;gap:28px}.detail-image{min-height:270px}.detail-wrap{padding-top:25px;padding-bottom:52px}.detail-raised{gap:36px}}
+@media(prefers-reduced-motion:reduce){.campaign-link{transition:none}}
+
+/* Step 3 fundraiser form */
+.fundraiser-section{background:#f7f5ef;padding:76px 0}
+.fundraiser-wrap{max-width:900px}
+#fundraiserForm{background:#fff;border:1px solid var(--line);border-radius:10px;padding:clamp(20px,4vw,38px);box-shadow:0 10px 28px #233b300c}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.field{display:flex;flex-direction:column;gap:7px;min-width:0}
+.field.full{grid-column:1/-1}
+.field label{font-size:13px;font-weight:700}.field label span{font-weight:400;color:var(--muted)}
+.field input,.field select,.field textarea{width:100%;border:1px solid #cfd8d0;border-radius:5px;background:#fff;color:var(--ink);padding:11px 12px;font:14px/1.5 inherit}
+.field textarea{resize:vertical;min-height:130px}
+.field input:focus,.field select:focus,.field textarea:focus{outline:3px solid #28694f30;border-color:var(--green)}
+.field input[aria-invalid=true],.field select[aria-invalid=true],.field textarea[aria-invalid=true]{border-color:#b54732}
+.field small{font-size:10px;color:var(--muted)}.field-error{min-height:0;color:#a83225;font-size:11px;font-weight:600}.field-error:empty{display:none}
+.form-safety{font-size:11px;color:var(--muted);background:#f3f5f0;border-left:3px solid var(--coral);padding:10px 12px;margin:22px 0}
+.form-actions{display:flex;gap:12px;flex-wrap:wrap}.button.outline{background:#fff;color:var(--green);border:1px solid var(--green)}.button.outline:hover{background:#edf4ed}
+.form-status,.form-success{padding:11px 13px;border-radius:5px;font-size:12px}.form-status{background:#fff1ed;color:#8d3325}.form-success{background:#e8f3e9;color:#205a39}
+.upload-preview{display:flex;align-items:center;gap:12px;margin-top:5px;padding:9px;border:1px solid var(--line);border-radius:6px;font-size:11px;color:var(--muted)}.upload-preview img{width:76px;height:64px;object-fit:cover;border-radius:4px}
+.campaign-preview-dialog{width:min(620px,calc(100% - 28px));max-height:90vh;overflow:auto;text-align:left;padding:30px}
+.campaign-preview-dialog h2{font-size:30px;line-height:1.2;margin:8px 0}
+.campaign-preview-dialog>p{font-size:13px;color:var(--muted);white-space:pre-wrap}
+.preview-banner{height:210px;margin:-30px -30px 22px;background:#e9efe2;overflow:hidden}.preview-banner img{width:100%;height:100%;object-fit:cover}
+.preview-owner{margin-top:13px}.preview-goal{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:14px;font-size:12px}
+.preview-private{margin-top:20px;font-size:10px!important}
+@media(max-width:600px){.fundraiser-section{padding:54px 0}.form-grid{grid-template-columns:1fr;gap:15px}.field.full{grid-column:auto}.form-actions{flex-direction:column}.form-actions .button{width:100%}.campaign-preview-dialog{padding:22px}.preview-banner{margin:-22px -22px 18px;height:175px}}
+
+/* Step 4 persistent browser-local demo campaigns */
+.saved-campaigns{margin:30px 0 20px;padding-top:24px;border-top:1px solid var(--line)}
+.saved-campaigns h3{font-size:18px;margin:0 0 4px}
+.saved-privacy{font-size:11px;color:var(--muted);margin:0 0 16px}
+.saved-photo{background-size:cover;background-position:center}
+.saved-photo:before,.saved-photo:after{opacity:.2}
+.saved-campaign-link .body>p{min-height:58px}
+
+/* Step 5 local campaign management */
+.saved-campaigns{scroll-margin-top:90px}
+.saved-empty{color:var(--muted);font-size:12px;padding:14px 16px;background:#fff;border:1px dashed var(--line);border-radius:6px}
+.shared-link-notice{width:min(1120px,90%);margin:18px auto 0;padding:12px 15px;border-radius:6px;background:#fff1ed;color:#853a2d;font-size:12px}
+.campaign-management{border-top:1px solid var(--line);margin-top:24px;padding-top:18px}
+.campaign-management h3{font-size:14px;margin:0 0 11px}.campaign-management h3 span{font-weight:400;color:var(--muted);font-size:11px}
+.management-actions{display:flex;gap:8px;flex-wrap:wrap}.management-actions .button{font-size:11px;padding:9px 12px}
+.button.danger{background:#fff;color:#9d392e;border:1px solid #c8796c}.button.danger:hover{background:#fff1ed}
+.share-link-label{display:block;margin-top:16px;font-size:11px;font-weight:700}
+.share-link-row{display:flex;gap:8px;margin-top:5px}.share-link-row input{flex:1;min-width:0;border:1px solid #cfd8d0;border-radius:5px;padding:9px;font-size:11px;color:var(--ink);background:#f8f9f6}
+.share-link-note,.management-status,.edit-mode-note{font-size:10px;color:var(--muted);margin:6px 0}
+.edit-mode-note{font-size:11px}
+#savedCampaignsSection .grid{margin-top:12px}
+@media(max-width:600px){.management-actions{flex-direction:column}.management-actions .button{width:100%}.share-link-row{align-items:stretch}.share-link-row input{width:100%}.saved-campaigns{scroll-margin-top:70px}}
